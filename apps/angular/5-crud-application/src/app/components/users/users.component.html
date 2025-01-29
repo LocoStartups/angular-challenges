@@ -1,0 +1,6 @@
+
+<mat-list>
+  <mat-list-item *ngFor="let user of userService.users()">
+    <user [user]="user" />
+  </mat-list-item>
+</mat-list>

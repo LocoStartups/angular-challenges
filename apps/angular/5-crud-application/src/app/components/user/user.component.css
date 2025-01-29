@@ -1,0 +1,19 @@
+
+
+
+.title-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-button-container span {
+  margin-right: 16px; /* Ajusta el valor según sea necesario */
+}
+
+.title-button-container button {
+  margin-right: 8px; /* Ajusta el valor según sea necesario */
+}
+
+.title-button-container button:last-child {
+  margin-right: 0; /* Elimina el margen del último botón */
+}

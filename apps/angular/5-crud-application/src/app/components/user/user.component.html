@@ -1,0 +1,11 @@
+<div class="title-button-container">
+  <span matListItemTitle>{{ user.title }}</span>
+
+  <button mat-fab (click)="update(user)">
+    <mat-icon>update</mat-icon>
+  </button>
+
+  <button mat-fab (click)="delete(user)">
+    <mat-icon>delete</mat-icon>
+  </button>
+</div>
