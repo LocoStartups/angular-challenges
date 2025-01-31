@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import UsersComponent from './components/users/users.component';
+import UsersComponent from './components/user/components/user-list/users.component';
 
 @Component({
   imports: [CommonModule, UsersComponent],

@@ -1,8 +1,8 @@
 import { Component, inject, Input } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { User } from '../../interfaces/user.interface';
-import { UserService } from '../../services/user.service';
+import { User } from '../../../../interfaces/user.interface';
+import { UserService } from '../../../../services/user.service';
 
 @Component({
   selector: 'user',
